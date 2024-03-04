@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>perfil de perla</title>
+</head>
+<body>
+    <style>
+        body{
+background-color:#FFA07A;
+font-family: Arial, Helvetica, sans-serif;
+color: aliceblue;/*esto es para el color de letra*/
+text-align: center;
+
+        }
+.perfil{
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600;
+    background-color: #ffafcc;
+    padding: 20px;
+    box-shadow: 0 0 10px #cdb4db;
+
+
+}   
+.foto-perfil{
+    width: 250px;
+    height: 180px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+} 
+
+    </style>
+    <div class="perfil">
+        <img src="foto.jpg" alt="hola"class="foto-perfil">
+        <h1 id="nombre">Nombre de perfil</h1>
+        <h3 id="especialidad">especialidad del cetis</h3>
+        <li id="musica">musica favorita</li>
+        <li id="programas">programas favoritos</li>
+        <h2>informacion de contacto</h2>
+        <p id="telefono">telefono</p>
+        <p id="correo">correo</p>
+        <p id="biografia">biografia</p>
+
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded',function(){
+                document.getElementById('nombre').textContent='Perla De Leon';
+                document.getElementById('especialidad').textContent='programacion';
+                document.getElementById('musica').textContent='mana,caifanes,coolio';
+                document.getElementById('programas').textContent='mil maneras  de mor1r,jimmy nutron,gumball';
+                document.getElementById('telefono').textContent='8991225467';
+                document.getElementById('correo').textContent='perlardlp07@gmail.com';
+                document.getElementById('biografia').textContent='cuando estaba chiquita me perdi en el centro';
+            })
+        </script>
+</body>
+</html>
